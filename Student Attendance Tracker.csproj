@@ -8,4 +8,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Student_Attendance_Business_Logic\Student_Attendance_Business_Logic.csproj" />
+  </ItemGroup>
+
 </Project>

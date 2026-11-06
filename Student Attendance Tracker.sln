@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36811.4 d17.14
+# Visual Studio Version 18
+VisualStudioVersion = 18.11.12315.225 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student Attendance Tracker", "Student Attendance Tracker.csproj", "{FC85F5C4-5577-420D-A651-F5504FE4D078}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student_Attendance_Business_Logic", "..\Student_Attendance_Business_Logic\Student_Attendance_Business_Logic.csproj", "{5B950431-B139-4657-9F42-FD22A992B865}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student_Attendance_Logic_Layer", "..\Student_Attendance_Logic_Layer\Student_Attendance_Logic_Layer.csproj", "{9A28FD23-586C-4635-AF26-DF6200957D4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student_Attendance_Form_App", "..\Student_Attendance_Form_App\Student_Attendance_Form_App.csproj", "{7531B2FC-5872-405B-AB9D-CEF475E0C4CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{FC85F5C4-5577-420D-A651-F5504FE4D078}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC85F5C4-5577-420D-A651-F5504FE4D078}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC85F5C4-5577-420D-A651-F5504FE4D078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B950431-B139-4657-9F42-FD22A992B865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B950431-B139-4657-9F42-FD22A992B865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B950431-B139-4657-9F42-FD22A992B865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B950431-B139-4657-9F42-FD22A992B865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A28FD23-586C-4635-AF26-DF6200957D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A28FD23-586C-4635-AF26-DF6200957D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A28FD23-586C-4635-AF26-DF6200957D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A28FD23-586C-4635-AF26-DF6200957D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7531B2FC-5872-405B-AB9D-CEF475E0C4CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7531B2FC-5872-405B-AB9D-CEF475E0C4CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7531B2FC-5872-405B-AB9D-CEF475E0C4CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7531B2FC-5872-405B-AB9D-CEF475E0C4CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
