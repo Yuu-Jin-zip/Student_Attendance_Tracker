@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36811.4 d17.14
+# Visual Studio Version 18
+VisualStudioVersion = 18.10.12201.205
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student Attendance Tracker", "Student Attendance Tracker.csproj", "{FC85F5C4-5577-420D-A651-F5504FE4D078}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student Attendance Business", "SAT BLL\Student Attendance Business.csproj", "{78291E3D-BF3A-BFF5-FF47-D4D9B046C8B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student Attendance Data", "SAT DL\Student Attendance Data.csproj", "{226FBAC2-C113-E684-00B7-C4A6749B5F86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{FC85F5C4-5577-420D-A651-F5504FE4D078}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC85F5C4-5577-420D-A651-F5504FE4D078}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC85F5C4-5577-420D-A651-F5504FE4D078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78291E3D-BF3A-BFF5-FF47-D4D9B046C8B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78291E3D-BF3A-BFF5-FF47-D4D9B046C8B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78291E3D-BF3A-BFF5-FF47-D4D9B046C8B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78291E3D-BF3A-BFF5-FF47-D4D9B046C8B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{226FBAC2-C113-E684-00B7-C4A6749B5F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{226FBAC2-C113-E684-00B7-C4A6749B5F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{226FBAC2-C113-E684-00B7-C4A6749B5F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{226FBAC2-C113-E684-00B7-C4A6749B5F86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

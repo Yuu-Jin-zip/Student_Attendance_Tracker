@@ -8,4 +8,20 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="SAT BLL\**" />
+    <Compile Remove="SAT DL\**" />
+    <EmbeddedResource Remove="SAT BLL\**" />
+    <EmbeddedResource Remove="SAT DL\**" />
+    <None Remove="SAT BLL\**" />
+    <None Remove="SAT DL\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SAT BLL\Student Attendance Business.csproj" />
+    <ProjectReference Include="..\SAT DL\Student Attendance Data.csproj" />
+    <ProjectReference Include="SAT BLL\Student Attendance Business.csproj" />
+    <ProjectReference Include="SAT DL\Student Attendance Data.csproj" />
+  </ItemGroup>
+
 </Project>
