@@ -4,6 +4,20 @@ using Student_Attendance_Data;
 
 namespace Student_Attendance_Tracker
 {
+    class ClassSession
+    {
+        public DayOfWeek Day;
+        public string Time = "";
+        public string Subject = "";
+    }
+
+    class AttendanceRecord
+    {
+        public string Date = "";
+        public string Subject = "";
+        public string Status = ""; // "Present" or "Absent"
+    }
+
     internal class Program
     {
         static void Main(string[] args)
